@@ -1,0 +1,39 @@
+body{
+    background-color:skyblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 30px;
+}
+
+h1 {
+    color:black;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-size: 45px;
+    text-align: center;
+}
+
+a {
+    color:lightskyblue;
+    text-decoration: none;
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+li {
+    color: black;
+    font-size: 20px;
+}
