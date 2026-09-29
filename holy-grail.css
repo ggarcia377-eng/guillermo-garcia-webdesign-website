@@ -1,0 +1,52 @@
+body {
+   background-color: rgb(206, 76, 76); 
+   font-family:'Times New Roman', Times, serif;
+   margin: 0px;
+}
+
+.page {
+    display: grid;
+    min-height: 100vh;
+    flex-direction: column;
+}    
+
+.header {
+    background-color: rgb(25, 64, 121);
+    border: 5px black;
+    font-size: 30px;
+    
+    
+}
+
+.middle {
+    display: flex;
+    gap: 15px;
+
+}
+
+.left-sidebar {
+    width: 200px;
+    background-color:rgb(233, 145, 72);
+    font-size: 35px;
+
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    background-color:rgb(3, 99, 122);
+    font-size: 35px;
+}
+
+.right-sidebar {
+    flex: 1;
+    padding: 20px;
+    font-size: 35px;
+
+}
+
+.footer {
+    background-color: rgb(8, 104, 37);
+    border: 5px black;
+    font-size: 30px
+}
